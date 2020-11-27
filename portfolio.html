@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+        <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/style.css ">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
@@ -10,32 +11,33 @@
 </head>
 <body>
     <header id="top-line">
-        <a> <img src="./images/logo.svg" alt="logo"> </a>
-        <nav>
+        <a> <img class="logo" src="./images/logo.svg" alt="logo"> </a>
+        
+        <nav class="nav-list">
             <!--Навигация-->
-        <div>
-            <ul class="nav-list">
+        
+            <ul class="">
                 <li> <a href="./index.html" class="link"> Студия </a></li>
                 <li> <a href="./portfolio.html" class="link"> Портфолио </a></li>
                 <li> <a href="" class="link"> Контакты </a></li>
             </ul>
-        </div>
-            <div>
+        
+            
             <ul class="nav-contacts">
                 <li> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
                 <li> <a href="tel:+380961111111" class="link">+38 096 111 11 11 </a></li>
             </ul>
-            </div>
+           
         </nav>
     </header>
     <main>
         <!--Кнопки-->
         <div>
-            <button type="button" class="primary"> Все </button>
-            <button type="button" class="primary"> Веб-сайты </button>
-            <button type="button" class="primary"> Приложения </button>
-            <button type="button" class="primary"> Дизайн </button>
-            <button type="button" class="primary"> Маркетинг </button>
+            <a type="button" class="primary"> Все </a>
+            <a type="button" class="primary"> Веб-сайты </a>
+            <a type="button" class="primary"> Приложения </a>
+            <a type="button" class="primary"> Дизайн </a>
+            <a type="button" class="primary"> Маркетинг </a>
         </div>
         <!--Примеры-->
     <section class="hero-description">
@@ -93,8 +95,8 @@
             <!--Адрес и контакты-->
         <div>
             <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <nav  class="nav-contacts">
-            <ul>
+            <nav>
+            <ul class="nav-hover">
                 <li> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a> </li>
                 <li> <a href="tel:+380961111111" class="link">+38 096 111 11 11 </a> </li>
             </ul>
