@@ -380,3 +380,6 @@ a[href="tel:+380961111111"] {
     padding: 0px;
     margin: 0px;
 }
+.nav-links .current {
+    color: var(--accent-button-color);
+}
